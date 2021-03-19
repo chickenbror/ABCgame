@@ -108,3 +108,4 @@ Eg I only managed to run it on my Mac but not on Windows.
 - Speech-to-text on the other hand was easy to config as it's processed online in Chrome, 
  so we only need adding 'sv-SE'
 - ![Swedish version](https://media.giphy.com/media/WChTTTIgQvdj9jk9Yt/giphy-downsized-large.gif)
+- [Swedish game demo](https://chickenbror.github.io/ABCspelet): The ASR can recognise Swedish, but TTS's pronunciation may be awful. In Chrome on my Windows it has a German accent and in Edge it has an American one.
