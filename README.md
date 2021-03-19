@@ -77,6 +77,7 @@ go to src/game_codes/questions.json
 ###### 9. Improved on the game
 - (2021-03-19, Eirini)
 - Added extra context and states in dmGame, eg maximum allowance on skipping the question and asking for clues.
+- It also helps saving memery as now each round of game only requires an array of max 10 questions (ie, 5 to win + 5 chances to skip)
 
 ###### 10. Presentation & Demo
 - (2021-03-23, Calvin & Eirini)
@@ -105,7 +106,6 @@ go to src/game_codes/questions.json
 - Limited support: yet to find a suitable JS lemmatizer for Swedish
 - The availability of TTS voices is environment-dependent. 
 Eg I only managed to run it on my Mac but not on Windows.
-- Speech-to-text on the other hand was easy to config as it's processed online in Chrome, 
- so we only need adding 'sv-SE'
-- ![Swedish version](https://media.giphy.com/media/WChTTTIgQvdj9jk9Yt/giphy-downsized-large.gif)
+- Speech-to-text on the other hand was easy to config by specifiying the code, eg, 'sv-SE' as it's processed online in Chrome
+- ![Swedish version](https://media.giphy.com/media/SxBHJI0JoVd5jbmRGB/giphy.gif)
 - [Swedish game demo](https://chickenbror.github.io/ABCspelet): The ASR can recognise Swedish, but TTS's pronunciation may be awful. In Chrome on my Windows it has a German accent and in Edge it has an American one.
