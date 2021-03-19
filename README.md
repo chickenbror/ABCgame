@@ -96,3 +96,9 @@ go to src/game_codes/questions.json
 		other speechRecog APIs (to be workable in other browsers)?
 		use web crawler to generate questions (categories+things) from eg Wikipedia articles?
 		apply SSXML, eg "Your letter is <em> A </em> for <em> Adam </em> ..."
+		
+- Rudimentary experimental version of the game in Swedish
+- Limited support: yet to find a suitable JS lemmatizer for Swedish
+- The availability of TTS voices is environment-dependent. Eg I only managed to run it on my Mac but not Windows
+- Speech-to-text on the other hand was easy to configure as it's processed online in Chrome, so we only need to add the code eg 'sv-SE'
+	![](https://media.giphy.com/media/i34bbHFbFCkIW7kpqz/giphy.gif)
