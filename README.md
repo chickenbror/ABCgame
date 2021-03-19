@@ -107,4 +107,4 @@ go to src/game_codes/questions.json
 Eg I only managed to run it on my Mac but not on Windows.
 - Speech-to-text on the other hand was easy to config as it's processed online in Chrome, 
  so we only need adding 'sv-SE'
-- ![Swedish version](https://media.giphy.com/media/i34bbHFbFCkIW7kpqz/giphy-downsized-large.gif)
+- ![Swedish version](https://media.giphy.com/media/WChTTTIgQvdj9jk9Yt/giphy-downsized-large.gif)
