@@ -31,7 +31,10 @@ go to src/game_codes/questions.json
 - Notes for brainstorming the idea & the flow chart
 
 
-	![Notes for brainstorming & the flow chart](https://media.giphy.com/media/GayPUtZ3UFPcsGBtxg/giphy.gif "Notes for brainstorming & the flow chart")
+	
+	
+	
+	-![Notes for brainstorming & the flow chart](https://media.giphy.com/media/GayPUtZ3UFPcsGBtxg/giphy.gif "Notes for brainstorming & the flow chart")
 
 
 ###### 2. Made prototype game in Python
@@ -100,6 +103,8 @@ go to src/game_codes/questions.json
 		
 - Rudimentary experimental version of the game in Swedish
 - Limited support: yet to find a suitable JS lemmatizer for Swedish
-- The availability of TTS voices is environment-dependent. Eg I only managed to run it on my Mac but not Windows
-- Speech-to-text on the other hand was easy to configure as it's processed online in Chrome, so we only need to add the code eg 'sv-SE'
-	![Swedish version](https://media.giphy.com/media/i34bbHFbFCkIW7kpqz/giphy-downsized-large.gif)
+- The availability of TTS voices is environment-dependent. 
+Eg I only managed to run it on my Mac but not on Windows.
+- Speech-to-text on the other hand was easy to config as it's processed online in Chrome, 
+ so we only need adding 'sv-SE'
+- ![Swedish version](https://media.giphy.com/media/i34bbHFbFCkIW7kpqz/giphy-downsized-large.gif)
