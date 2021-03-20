@@ -4,20 +4,32 @@
 // const quesJSON = require('./questions.json') //only works on server-end eg Node.js
 
 
-function shuffleArray(array) {
-    let curId = array.length;
-    // There remain elements to shuffle
-    while (0 !== curId) {
-        // Pick a remaining element
-        let randId = Math.floor(Math.random() * curId);
-        curId -= 1;
-        // Swap it with the current element.
-        let tmp = array[curId];
-        array[curId] = array[randId];
-        array[randId] = tmp;
+// function shuffleArray(array) {
+//     let curId = array.length;
+//     // There remain elements to shuffle
+//     while (0 !== curId) {
+//         // Pick a remaining element
+//         let randId = Math.floor(Math.random() * curId);
+//         curId -= 1;
+//         // Swap it with the current element.
+//         let tmp = array[curId];
+//         array[curId] = array[randId];
+//         array[randId] = tmp;
+//     }
+//     return array;
+// }
+
+function getRandomSubarray(arr, size) {
+    var shuffled = arr.slice(0), i = arr.length, temp, index;
+    while (i--) {
+        index = Math.floor((i + 1) * Math.random());
+        temp = shuffled[index];
+        shuffled[index] = shuffled[i];
+        shuffled[i] = temp;
     }
-    return array;
+    return shuffled.slice(0, size);
 }
+
 export function randomChoice(items) {
     let choice = items[items.length * Math.random() | 0];
     return choice;
@@ -43,7 +55,9 @@ export function makeNewQuestions( obj ) {
         //Filter answer/answers that start with letter
         candidate.answers = candidate.answers.filter( ans => ans[0]===letter); 
     });
-    let ques = shuffleArray(candidates); //shuffle the order
+    let ques = getRandomSubarray(candidates, 10); //Random sample; if candidates.length<10, return a shuffled candidates-array
+    //Only return max 10 ques to save memory; 
+    //since after 4 corrects, 5 skips are allowed, so the 10th ques must be answered
     return {letter, ques}; //returns an object with 2 properties
 }
 

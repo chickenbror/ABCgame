@@ -168,7 +168,7 @@ export default function App() {
 
     //List the supported synthesis-voices on the browswer:
     const [voiceIndex, setVoiceIndex] = React.useState(null);
-    console.log(voices) //An array of available voices/languages ... varies depending on the computer/browser
+    // console.log(voices) //An array of available voices/languages ... varies depending on the computer/browser
     // const voice =  voices[5] || null; // voices[idx]? voices[idx] : null *(browser default voice)
 
     const [current, send, service] = useMachine(machine, {
@@ -269,7 +269,7 @@ export default function App() {
 
                 <div className="Subtitles"> 
                     {/* VersionA: FOR Github deployment & Canvas submission */}
-                    {/* <YourSubtitles state={current}/>  */}
+                    <YourSubtitles state={current}/> 
 
                     {/* Version B: FOR demo (on local cuz it cannot show on Github page) */}
                     <UserSubtitles state={current}/> 

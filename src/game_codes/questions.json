@@ -134,12 +134,12 @@
         "answers": [ "spain", "mexico", "cuba", "argentina", "costa rica", "chile", "colombia", "guatemala", "peru", "venezuela", "ecuador", "bolivia", 
             "dominican republic", "honduras", "paraguay", "nicaragua", "panama" ]
     },
-    { "category": "a device you always have to keep plugged in",
-        "answers": [ "tv", "computer", "lamp", "headphones", "mouse", "stove", "mixer", "microwave", "phone", "air conditioning" ]
+    { "category": "an home appliance that has to be plugged in",
+        "answers": [ "tv", "fridge", "lamp", "refrigerator", "heater", "toaster", "mixer", "microwave", "washing machine", "air conditioning","air conditioner","dryer","tumbler","dishwasher","dehumidifier","fan","air purifier" ]
     },
     { "category": "a sport",
         "answers": [ "hockey", "football", "soccer", "baseball", "rugby", "basketball", "volleyball", "badminton", "archery", "golf", "gymnastics", "figure skating", 
-            "ice skating", "cheerleading", "tennis", "surfing", "snowboarding", "cricket", "quidditch", "climbing", "hiking", "cycling", "wrestling", "fencing",
+            "ice skating", "cheerleading", "tennis", "surfing", "snowboarding", "cricket", "skating", "climbing", "hiking", "cycling", "wrestling", "fencing","handball","spinning","yoga",
             "ice hockey", "squash", "windsurfing", "ski", "skating", "lacrosse", "polo", "rowing", "swimming", "water polo", "weightlifting", "racing" ]
     },
     { "category": "a material that might be used to build a house",
@@ -165,17 +165,17 @@
             "tracksuit" ]
     },
     { "category": "an item found in a wallet",
-        "answers": [ "money", "cash", "change", "card", "condom", "i d", "id", "i.d.", "license", "coupon", "bandaid", "credit card", "debit card" ]
+        "answers": [ "money", "cash", "change", "card", "condom","coin","i d", "id", "i.d.", "license", "coupon", "bandaid", "credit card", "debit card" ]
     },
     { "category": "a Netflix series",
         "answers": [ "house of cards", "black mirror", "stranger things", "orange is the new black", "crown", "emily in paris", "queen's gambit","narcos", "bojack horseman", "dark" ]
     },
     { "category": "a makeup or skincare product",
-        "answers": [ "lipstick", "foundation", "mascara", "lipgloss", "toner", "eyeliner", "eye shadow", "powder", "moisturizer", "blush" ]
+        "answers": [ "lipstick", "foundation", "mascara", "lipgloss", "toner", "eyeliner","eye liner", "eye shadow", "powder", "moisturizer", "blush","moisturiser","bb cream","blemish","concealer","nail polish" ]
     },
     { "category": "a product in your bathroom",
         "answers": ["toothpaste", "toothbrush", "soap", "shampoo", "conditioner", "moisturizer","moisturiser","lotion", "shower gel", "mouthwash", "toilet paper", "deodorant",
-            "dental floss", "razor", "cleanser", "shaving"]
+            "dental floss", "razor", "cleanser", "shaving","towel"]
     },
     { "category": "a video streaming service",
         "answers": ["netflix", "hulu", "disney plus", "disney", "apple tv", "amazon prime", "prime video", "youtube", "hbo"]
