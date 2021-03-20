@@ -86,26 +86,28 @@ go to src/game_codes/questions.json
 
 ## Challenges, Limitations and Future Improvement
 
-§§§Draft scripts below§§§
+##### Challenges during development: 
+- Lemmatiser overfits (eg philippines>>philippine). Solution: match both original and lemmatised inputs
+- Letter repeat a lot when restarting the game. Solution: added a guarding state and context.lastLetter so the new letter won't be the same (eg, S>>A>>K>>D>>S... instead of S>>S>>S... in a row ).
+- Some components show normally on localhost but not on deployed GitHub page. (Might be due to CSS compatibility?) Compromise: Made one basic component for GitHub deployment & component for demo (running on localhost). Might try deploying to another service, eg Azure/AWS to see what the problem is.
 
+## "Which parts of the course was most useful? how did we apply them?" 
+- The labs tasks were most useful as they involved plenty of hands-on
+- At first I was flustered that we had to suddenly switch to another programming language and framework, ie TypeScript, React, and XState. But in hindsight, it actually forced us to learn new things in a short time. Although I did learn most of them from YouTube tutorials, so it would've been nice if the teachers suggested tutorials relevant to the labs.
 
-	challenges: 
-			lemmatiser overfits (eg philippines>>philippine); solution: match both original and lemmatised inputs
-			letter repeat a lot; solution: added a guarding state and context.lastLetter so the new letter won't be the same
-				(eg, S>>A>>K>>D>>S... instead of S>>S>>S... in a row )
-
-	"which parts of the course was most useful? how did we apply them?" ...the labs (forced us to do hands-on)??
-	"how can the game be developed in the future?" 
-		...shorter latency? 
-		fuzzy match? sound effect? 
-		other speechRecog APIs (to be workable in other browsers)?
-		use web crawler to generate questions (categories+things) from eg Wikipedia articles?
-		apply SSXML, eg "Your letter is <em> A </em> for <em> Adam </em> ..."
+## "How can the game be developed in the future?" 
+##### Tech-wise:
+- Use other speech APIs? >> Shorter latency, more config freedom
+- apply SSXML, eg "Name a <em>SOMETHING</em>"
+- Use web-crawler to automatically create questions, eg from Wikipedia's list of things
+- Suggest adding a new answer to the database, if many players said it
+##### Game-wise:
+- Allow choices of question categories, eg nerd/pop/geography...
+- Lose a heart if asking too many hints / skipping to many questions
+- Versions in different languages, which will allow localised questions/answers, eg place names in local languages
 		
-- Rudimentary experimental version of the game in Swedish
-- Limited support: yet to find a suitable JS lemmatizer for Swedish
-- The availability of TTS voices is environment-dependent. 
-Eg I only managed to run it on my Mac but not on Windows.
-- Speech-to-text on the other hand was easy to config by specifiying the code, eg, 'sv-SE' as it's processed online in Chrome
+- I made an experimental version of the game in Swedish, but with some limitations...
+- Limited support: yet to find a suitable JS lemmatizer for Swedish.   The availability of TTS voices varies on different environments,
+eg, I only managed to run it on my Mac but not on Windows.   On the other hand, speech-to-text was easy to configure by just specifiying the code, eg, 'sv-SE', as it's processed online in Chrome.   Below is the demo of the Swedish version: the ASR can recognise Swedish, but TTS's pronunciation may be awful. For example, in Chrome on my Windows it has a German accent and in Edge it can pronounce in Swedish but I couldn't access the mic, so in the end could only play it in Chrome on my Mac, where both TTS and ASR worked.
 - ![Swedish version](https://media.giphy.com/media/SxBHJI0JoVd5jbmRGB/giphy.gif)
-- [Swedish game demo](https://chickenbror.github.io/ABCspelet): The ASR can recognise Swedish, but TTS's pronunciation may be awful. In Chrome on my Windows it has a German accent and in Edge it has an American one.
+- [Swedish game demo: "ABC-spelet"](https://chickenbror.github.io/ABCspelet) 
