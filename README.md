@@ -97,7 +97,7 @@ go to src/game_codes/questions.json
 
 ## "How can the game be developed in the future?" 
 ##### Tech-wise:
-- Use other speech APIs? >> Shorter latency, more config freedom
+- Use other cloud-based speech APIs? >> Pros: Shorter latency, more config choices, wider browser support. Cons: requires paid subscription.
 - apply SSXML, eg "Name a <em>SOMETHING</em>"
 - Use web-crawler to automatically create questions, eg from Wikipedia's list of things
 - Suggest adding a new answer to the database, if many players said it
