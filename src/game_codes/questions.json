@@ -131,7 +131,7 @@
         "answers": [ "milk", "bread", "toilet paper", "juice", "jam", "fruit", "cheese", "butter", "vegetable", "oil", "soda", "salad", "cereal", "cookie", "coffee","soft drink","coke","food" ]
     },
     { "category": "a Spanish-speaking country ",
-        "answers": [ "spain", "mexico", "cuba", "argentina", "costa rica", "chile", "colombia", "guatemala", "peru", "venezuela", "ecuador", "bolivia", 
+        "answers": [ "spain", "mexico", "cuba", "argentina", "costa rica", "chile", "colombia", "columbia","guatemala", "peru", "venezuela", "ecuador", "bolivia", 
             "dominican republic", "honduras", "paraguay", "nicaragua", "panama" ]
     },
     { "category": "an home appliance that has to be plugged in",
@@ -232,8 +232,13 @@
     { "category": "a common ice cream flavour",
         "answers": ["vanilla", "chocolate", "strawberry", "caramel", "coffee", "cherry", "fudge","cookie","mint","coconut","banana","mango","green tea","berry","blueberry",
 		   "matcha","tea","tofu"]
+    },
+	{ "category": "an Oscars for best actress winner",
+        "answers": ["sophia loren","ellen burstyn","sally field","joanne woodward","liza minnelli","jessica tandy","kathy bates","joan fontaine","marlee matlin","norma shearer","greer garson","jennifer jones","shirley maclaine","jessica lange","joan crawford","sandra bullock","olivia colman","loretta young","grace kelly","mary pickford","judy holliday","elizabeth taylor","helen hunt","jane fonda","frances mcdormand","ginger rogers","ingrid bergman","sissy spacek","kate winslet","cate blanchett","maggie smith","louise fletcher","claudette colbert","patricia neal","luise rainer","julie christie","olivia de havilland","glenda jackson","janet gaynor","emma thompson","charlize theron","holly hunter","helen hayes","gwyneth paltrow","cher","marie dressler","susan sarandon","jane wyman","nicole kidman","marion cotillard","jodie foster","emma stone","anne bancroft","helen mirren","julia roberts","reese witherspoon","julianne moore","brie larson","simone signoret","bette davis","shirley booth","geraldine page","barbra streisand","audrey hepburn","julie andrews","hilary swank","jennifer lawrence","vivien leigh","katharine hepburn","diane keaton","renée zellweger","meryl streep","susan hayward","natalie portman","anna magnani"]
+    },
+	{ "category": "an Oscars for best actor winner",
+        "answers": ["robert duvall","michael douglas","maximilian schell","paul muni","peter finch","jon voight","ernest borgnine","lionel barrymore","jean dujardin","robert de niro","william holden","gary oldman","anthony hopkins","daniel day-lewis","george arliss","rami malek","fredric march","matthew mcconaughey","jack lemmon","robert donat","kevin spacey","art carney","roberto benigni","adrien brody","sidney poitier","laurence olivier","sean penn","joaquin phoenix","gene hackman","ray milland","cliff robertson","yul brynner","spencer tracy","david niven","forest whitaker","casey affleck","burt lancaster","philip seymour hoffman","gregory peck","jack nicholson","henry fonda","eddie redmayne","william hurt","wallace beery","marlon brando","marlon brando1","geoffrey rush","ronald colman","george c. scott1","leonardo dicaprio","bing crosby","josé ferrer","paul newman","james cagney","broderick crawford","jamie foxx","dustin hoffman","warner baxter","al pacino","jeremy irons","alec guinness","james stewart","rex harrison","clark gable","gary cooper","paul scofield","charles laughton","victor mclaglen","emil jannings","john wayne","charlton heston","rod steiger","tom hanks","nicolas cage","russell crowe","richard dreyfuss","colin firth","f. murray abraham","paul lukas","jeff bridges","lee marvin","ben kingsley"]
     }
-
 
 
 ]

@@ -52,11 +52,11 @@ const rememberLetter: Action<SDSContext, SDSEvent> = assign((context) => {
 
 //Say the current random letter and a 'spelling/phonetic' alphabet
 function letterNow(context:SDSContext){
-    let alphabet:any = {
-        'a':'Adam', 'b':'Bella', 'c':'Cindy', 'd':'Daniel', 'e':'Eva', 'f':'Francesca', 'g':'Gabriel', 'h':'Harry',
-        'i':'Ida', 'j':'Julia', 'k':'Kevin', 'l':'Laura', 'm':'Michael', 'n':'Nicole', 'o':'Oscar', 'p':'Paula',
-        'q':'Quebec', 'r':'Rachel', 's':'Sara', 't':'Tina', 'u':'unique', 'v':'Victoria', 'w':'window', 'x':'x-ray',
-        'y':'yesman', 'z':'zero'
+    const alphabet:any = {
+        'a':'Adam', 'b':'Bella', 'c':'Cindy', 'd':'Daniel', 'e':'Emma', 'f':'Frida', 'g':'Gabriel', 'h':'Hannah',
+        'i':'Ida', 'j':'Jennifer', 'k':'Kevin', 'l':'Laura', 'm':'Michael', 'n':'Nicole', 'o':'Oscar', 'p':'Paula',
+        'q':'Quebec', 'r':'Rachel', 's':'Sophia', 't':'Tina', 'u':'unique', 'v':'Victoria', 'w':'William', 'x':'x-ray',
+        'y':'Yasmin', 'z':'Zara'
         }
     let letter:string = context.letter
     return `Your letter is "${letter.toUpperCase()}" for "${alphabet[letter]}". `
@@ -77,7 +77,7 @@ function giveHint(context:SDSContext){
     //in case word is too short>>hint only 2 letters
     else {
         let hint = anAns.slice(0, 2).toUpperCase() //first 2 letters
-        return `Spelled with ${hint[0]}, ${hint[1]}, ${hint[2]}.`
+        return `Spelled with ${hint[0]}, ${hint[1]}.`
     }
 }
 
