@@ -128,14 +128,16 @@
         "answers": ["snow white","cinderella", "aurora", "ariel", "belle","bell", "jasmine","pocahontas","mulan","rapunzel","merida","moana","anna","elsa"]
     },
     { "category": "a thing you buy from the grocery store",
-        "answers": [ "milk", "bread", "toilet paper", "juice", "jam", "fruit", "cheese", "butter", "vegetable", "oil", "soda", "salad", "cereal", "cookie", "coffee","soft drink","coke","food" ]
+        "answers": [ "milk", "bread", "toilet paper", "juice", "jam", "fruit", "cheese", "butter", "vegetable", "oil", "soda", "salad", "cereal", "cookie", "coffee",
+            "soft drink","coke","food" ]
     },
     { "category": "a Spanish-speaking country ",
         "answers": [ "spain", "mexico", "cuba", "argentina", "costa rica", "chile", "colombia", "columbia","guatemala", "peru", "venezuela", "ecuador", "bolivia", 
             "dominican republic", "honduras", "paraguay", "nicaragua", "panama" ]
     },
     { "category": "an home appliance that has to be plugged in",
-        "answers": [ "tv", "fridge", "lamp", "refrigerator", "heater", "toaster", "mixer", "microwave", "washing machine", "air conditioning","air conditioner","dryer","tumbler","dishwasher","dehumidifier","fan","air purifier" ]
+        "answers": [ "tv", "fridge", "lamp", "refrigerator", "heater", "toaster", "mixer", "microwave", "washing machine", "air conditioning","air conditioner","dryer","tumbler",
+            "dishwasher","dehumidifier","fan","air purifier", "humidifier" ]
     },
     { "category": "a sport",
         "answers": [ "hockey", "football", "soccer", "baseball", "rugby", "basketball", "volleyball", "badminton", "archery", "golf", "gymnastics", "figure skating", 
@@ -171,14 +173,15 @@
         "answers": [ "house of cards", "black mirror", "stranger things", "orange is the new black", "crown", "emily in paris", "queen's gambit","narcos", "bojack horseman", "dark" ]
     },
     { "category": "a makeup or skincare product",
-        "answers": [ "lipstick", "foundation", "mascara", "lipgloss", "toner", "eyeliner","eye liner", "eye shadow", "powder", "moisturizer", "blush","moisturiser","bb cream","blemish","concealer","nail polish" ]
+        "answers": [ "lipstick", "foundation", "mascara", "lipgloss", "toner", "eyeliner","eye liner", "eye shadow", "powder", "moisturizer", "blush","moisturiser","concealer",
+            "nail polish", "cleanser" ]
     },
     { "category": "a product in your bathroom",
         "answers": ["toothpaste", "toothbrush", "soap", "shampoo", "conditioner", "moisturizer","moisturiser","lotion", "shower gel", "mouthwash", "toilet paper", "deodorant",
-            "dental floss", "razor", "cleanser", "shaving","towel"]
+            "dental floss", "razor", "cleanser", "shaving","towel", "q-tip", "cotton buds", "cotton pads" ]
     },
     { "category": "a video streaming service",
-        "answers": ["netflix", "hulu", "disney plus", "disney", "apple tv", "amazon prime", "prime video", "youtube", "hbo"]
+        "answers": ["netflix", "hulu", "disney plus", "disney", "apple tv", "amazon prime", "prime video", "youtube", "hbo", "twitch", "dailymotion", "vimeo" ]
     },
     { "category": "a soft drink",
         "answers": ["coke", "coca-cola", "pepsi", "sprite", "seven up", "red bull","redbull","fanta","monster", "doctor pepper","dr. pepper", "mountain dew" ]
