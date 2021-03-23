@@ -95,7 +95,7 @@
     { "category": "an occupation",
         "answers": ["doctor", "police", "detective", "bus driver", "postman", "dancer", "musician", "painter", "programmer", "nurse", "teacher", "professor", 
         	"firefighter", "blacksmith", "architect", "baker", "designer", "hairdresser", "artist", "actor", "director", "model", "engineer",
-        	"photographer", "journalist", "writer", "singer", "mortician", "psychologist", "translator", "interprator", "detective", "soldier", "athlete", "chemist","tailor",
+        	"photographer", "journalist", "writer", "singer", "mortician", "psychologist", "translator", "interpreter", "detective", "soldier", "athlete", "chemist","tailor",
         "pilot","dancer","teacher","lawyer","judge","secretary","salesperson","gardener","architect","mailman","handyman","plumber","tradie","director","accountant","carpenter",
     "cook","chef","butcher","waiter","waitress","maid","cleaner","technician","hairdresser","barber","mechanic","farmer","actor","actress"]
     },

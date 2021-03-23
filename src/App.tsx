@@ -216,12 +216,12 @@ export default function App() {
         startVelocity: 80,
         elementCount: 400,
         dragFriction: 0.12,
-        duration: 7500,
+        duration: 10000,
         stagger: 1,
         width: "7px",
         height: "7px",
         perspective: "210px",
-        colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a"]
+        colors: ["#a864fd", "#29cdff", "#78ff44", "#ff718d", "#fdff6a","pink","orange"]
       };
     
     let clicked=0;
