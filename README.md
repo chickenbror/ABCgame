@@ -87,26 +87,28 @@ go to src/game_codes/questions.json
 ## Challenges, Limitations and Future Improvement
 
 ##### Challenges during development: 
-- Lemmatiser overfits (eg philippines>>philippine). Solution: match both original and lemmatised inputs
-- Letter repeat a lot when restarting the game. Solution: added a guarding state and context.lastLetter so the new letter won't be the same (eg, S>>A>>K>>D>>S... instead of S>>S>>S... in a row ).
-- Some components show normally on localhost but not on deployed GitHub page they become invisible (although when I inspected Elements in the browser, they are definitely there and at the right position, except they become invisible). (Might be due to CSS compatibility?) Compromise: I made basic versions of the components for GitHub deployment & components with more CSS styles for demo (running on localhost). Might try deploying to another service, eg Azure/AWS to see what the problem is.
+- Lemmatiser overfits (e.g. philippines>>philippine). We solved this by matching both original and lemmatised inputs.
+- The assigned letter is repeated a lot when restarting the game. Wesolved this by adding a guarding state and context.lastLetter so the new letter won't be the same (eg, S>>A>>K>>D>>S... instead of S>>S>>S... in a row).
+- Some components show normally on localhost but when deployed on GitHub Pages they become invisible (although when I inspected Elements in the browser, they are definitely there and at the right position, except they become invisible. Might be due to CSS compatibility?) Compromise: We made basic versions of the components for GitHub deployment & components with more CSS styles for demo (running on localhost). Might try deploying to another service, eg Azure/AWS to see what the problem is.
 
 ## "Which parts of the course was most useful? how did we apply them?" 
-- The labs tasks were most useful as they involved plenty of hands-on
-- At first I was flustered that we had to suddenly switch to another programming language and framework, ie TypeScript, React, and XState. But in hindsight, it actually forced us to learn new things in a short time. Although I did learn most of them from YouTube tutorials, so it would've been nice if the teachers suggested tutorials relevant to the labs.
+- The lab tasks were the most useful as they involved plenty of work and we gained hands-on experience thanks to them.
+- It was an extreme challenge for us to have to suddenly switch to another programming language and framework, that is, TypeScript, React, and XState, without any previous experience, guidance or teaching. Ultimately, we managed, and we acquired more knowledge on programming because of that, but it was a very short time period, which was not ideal.
 
 ## "How can the game be developed in the future?" 
-##### Tech-wise:
-- Use other cloud-based speech APIs? >> Pros: Shorter latency, more config choices, wider browser support. Cons: requires paid subscription.
-- apply SSXML, eg "Name a <em>SOMETHING</em>"
-- Use web-crawler to automatically create questions, eg from Wikipedia's list of things
+##### Programming-wise:
+- By using other cloud-based speech APIs?
+	Pros: Shorter latency, more configuration choices, wider browser support. 
+	Cons: requires paid subscription.
+- By applying SSXML, eg "Name a <em>SOMETHING</em>"
+- Use web-crawler to automatically create questions, i.e. from Wikipedia's list of things
 - Suggest adding a new answer to the database, if many players said it
 ##### Game-wise:
-- Allow choices of question categories, eg nerd/pop/geography...
+- Allow choices of question categories, e.g. nerd, movie, geography, music, etc.
 - Lose a heart if asking too many hints / skipping to many questions
-- Versions in different languages, which will allow localised questions/answers, eg place names in local languages
+- Versions in different languages, which will allow localised questions/answers, i.e. place names in local languages
 		
-- I made an experimental version of the game in Swedish, but with some limitations...
+- I (Calvin) made an experimental version of the game in Swedish, but with some limitations...
 - *Limited support:* yet to find a suitable JS lemmatizer for Swedish.   The availability of TTS voices varies on different environments,
 eg, I only managed to run it on my Mac but not on Windows.   On the other hand, speech-to-text was easy to configure by just specifiying the code, eg, 'sv-SE', as it's processed online in Chrome.   Below is the demo of the Swedish version: the ASR can recognise Swedish, but TTS's pronunciation may be awful. For example, in Chrome on my Windows it has a German accent and in Edge it can pronounce in Swedish but I couldn't access the mic, so in the end I could only play it in Chrome on my Mac, where both TTS and ASR worked.
 - ![Swedish version](https://media.giphy.com/media/SxBHJI0JoVd5jbmRGB/giphy.gif)
